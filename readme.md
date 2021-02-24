@@ -22,6 +22,7 @@ Run:
     sudo apt install jq
 #### Done!
 Now you only have to execute the `run.sh` file with the flags you want or change the `manifest.json` manually and run the `main.py` file.
+That's it, now you can start creating shortcuts for websites and/or Node applications (With auto process kill 🤠)
 ## Getting started
 You only need to set a few stuff up in the manifest.json file and then run the "run.sh" file.
 #### Flags (Optional)

@@ -1,0 +1,8 @@
+{
+  "isLocal": false,
+  "windowTitle": "Twitch",
+  "port": "8000",
+  "nodeFile": "index.js",
+  "folderPath": "/home/luizfelipe/node-to-bash",
+  "url": "http://www.twitch.tv"
+}

@@ -38,4 +38,5 @@ Pynosh uses JSON for its configuration: `manifest.json`, so you don't have to wo
 ##### Libraries used:
 - [PyWebView](https://github.com/r0x0r/pywebview)  
 
-
+## License
+  [Here](https://github.com/mococa/pynosh/blob/main/LICENSE)

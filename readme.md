@@ -5,6 +5,23 @@ It's a mix of Python, Node and Bash. Pynosh is a simple tool that will help you 
 ## Screenshots
 ![Screenshot](src/1.png)
 ![Screenshot](src/2.gif)
+## Installation
+Run:  
+
+    pip install pywebview
+
+#### Windows:
+Download this file and paste it in your gitbash/usr/bin folder:  
+    
+    https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe
+    
+Then edit the `setting.sh` file and replace all occurences of `jq` by `jq-win64`
+#### Unix:
+Run:
+
+    sudo apt install jq
+#### Done!
+Now you only have to execute the `run.sh` file with the flags you want or change the `manifest.json` manually and run the `main.py` file.
 ## Getting started
 You only need to set a few stuff up in the manifest.json file and then run the "run.sh" file.
 #### Flags (Optional)
@@ -37,6 +54,7 @@ Pynosh uses JSON for its configuration: `manifest.json`, so you don't have to wo
 [Me](https://www.linkedin.com/in/luiz-felipe-s-7539b7127/), Luiz Felipe Sousa Moureau Linhares
 ##### Libraries used:
 - [PyWebView](https://github.com/r0x0r/pywebview)  
+- [JQ](https://github.com/stedolan/jq)
 
 ## License
   [Here](https://github.com/mococa/pynosh/blob/main/LICENSE)
